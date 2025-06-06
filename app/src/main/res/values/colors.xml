@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Background -->
+    <color name="colorBackground">#FAFAFA</color> <!-- Very light gray for the app's main background -->
+
+    <!-- Surface/Card Backgrounds -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Basic white for surfaces like toolbars -->
+    <color name="colorCardBackground">#F0F0F0</color> <!-- Light gray for user cards (input forms, profiles) -->
+
+    <!-- Primary Theme Colors -->
+    <color name="colorPrimary">#2962FF</color> <!-- Vivid blue used for buttons, top bars -->
+    <color name="colorPrimaryVariant">#0039CB</color> <!-- Darker variant of primary for emphasis -->
+    <color name="colorSecondary">#00C853</color> <!-- Bright green for success buttons or icons -->
+    <color name="colorAccent">#FF6F00</color> <!-- Orange for highlights like FABs or warning CTA -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Primary text (titles, input text) -->
+    <color name="colorTextSecondary">#757575</color> <!-- Secondary text (descriptions, hints) -->
+    <color name="colorHint">#9E9E9E</color> <!-- Placeholder text in inputs -->
+
+    <!-- Input Field Styling -->
+    <color name="colorInputBackground">#FFFFFF</color> <!-- Background of EditText fields -->
+    <color name="colorInputBorder">#DDDDDD</color> <!-- Border (if outlined) of input fields -->
+
+    <!-- Button Text -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White text on buttons -->
+
+    <!-- Status/Alerts -->
+    <color name="colorError">#D32F2F</color> <!-- Error messages, invalid inputs -->
+    <color name="colorSuccess">#388E3C</color> <!-- Success messages or confirmations -->
+
+</resources>
