@@ -25,7 +25,7 @@ _Add screenshots here (optional). You can take them from the emulator or device 
 | Layer       | Technology                  |
 |-------------|-----------------------------|
 | Language    | Kotlin                      |
-| UI          | Jetpack Compose / XML       |
+| UI          | XML       |
 | Backend     | Firebase Realtime Database  |
 | IDE         | Android Studio              |
 | Build Tool  | Gradle                      |
