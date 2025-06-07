@@ -32,45 +32,40 @@ _Add screenshots here (optional). You can take them from the emulator or device 
 
 ---
 
-## 📁 Project Structure
-
-UserRegistrationApp/
-├── app/
-│ ├── java/com/example/firstapp/
-│ │ ├── MainActivity.kt
-│ │ ├── RegistrationActivity.kt
-│ │ └── ...
-│ ├── res/
-│ │ ├── layout/
-│ │ │ └── activity_registration.xml
-│ │ └── drawable/
-│ └── AndroidManifest.xml
-├── build.gradle (Project & App)
-├── google-services.json
-└── README.md
-
----
-
-## 🔌 Firebase Setup Instructions
-
-### 1. Create Firebase Project
-- Go to [Firebase Console](https://console.firebase.google.com/)
-- Click **"Add Project"** and follow the steps
-
-### 2. Register Android App
-- Inside your Firebase project → Add app → Android
-- Enter your package name (e.g., `com.example.firstapp`)
-- Download `google-services.json` and place it inside the `app/` folder
-
-### 3. Enable Realtime Database
-- Go to Firebase Console → Build → Realtime Database
-- Click **"Create Database"**
-- Set rules for development:
+## 🗄️ Firebase Database JSON Structure
 
 ```json
 {
-  "rules": {
-    ".read": true,
-    ".write": true
+  "MyUsers": {
+    "-OS5YZIMUZBXPIvQV9Li": {
+      "userAge": 20,
+      "userEmail": "shivamchute@gmail.com",
+      "userId": "-OS5YZIMUZBXPIvQV9Li",
+      "userName": "Shivam Chute"
+    },
+    "-OS5YbmH2ZRllTAdkiCX": {
+      "userAge": 19,
+      "userEmail": "ayushwadhai@gmail.com",
+      "userId": "-OS5YbmH2ZRllTAdkiCX",
+      "userName": "Ayush Wadhai "
+    },
+    "-OS5Yfpiorh8xY-gFQ8U": {
+      "userAge": 20,
+      "userEmail": "abhishekmangrudkar@gmail.com",
+      "userId": "-OS5Yfpiorh8xY-gFQ8U",
+      "userName": "Abhishek Mangrudkar "
+    },
+    "-OS5Ykg0q0WZ8c3cwZvG": {
+      "userAge": 19,
+      "userEmail": "nainityabombewar@gmail.com",
+      "userId": "-OS5Ykg0q0WZ8c3cwZvG",
+      "userName": "Nainitya Bombewar"
+    },
+    "-OS5Ys0JsF0ci36WmOuN": {
+      "userAge": 19,
+      "userEmail": "sujalhedau1971@gmail.com",
+      "userId": "-OS5Ys0JsF0ci36WmOuN",
+      "userName": "Sujal Sunil Hedau"
+    }
   }
 }
