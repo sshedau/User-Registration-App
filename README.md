@@ -14,12 +14,6 @@ A basic **Android User Registration App** that stores and retrieves user informa
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here (optional). You can take them from the emulator or device and upload to GitHub's issue tracker or assets folder._
-
----
-
 ## 🧰 Tech Stack
 
 | Layer       | Technology                  |
